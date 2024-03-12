@@ -1,7 +1,7 @@
 /*
  * File name: Start.java
  * Date:      2014/09/04 12:34
- * Author:    @author
+ * Author:    Jan Faigl
  */
 
 package cz.cvut.fel.pjv;
@@ -9,8 +9,7 @@ package cz.cvut.fel.pjv;
 public class Start {
 
    public static void main(String[] args) {
-      Lab01 lab = new Lab01();
+      Lab02 lab = new Lab02();
       lab.homework(args);
    }
-
 }
