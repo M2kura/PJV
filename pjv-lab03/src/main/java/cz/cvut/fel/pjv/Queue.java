@@ -6,7 +6,7 @@ package cz.cvut.fel.pjv;
 public interface Queue {
 
     /**
-     * Returns the number of stored elements in the queue. Note, that the the number of the elements is
+     * Returns the number of stored elements in the queue. Note, that the number of the elements is
      * <strong>not</strong> the size of the underlying data structure (array in this case specifically).
      *
      * @return the number of elements in the queue
