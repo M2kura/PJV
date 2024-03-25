@@ -3,9 +3,9 @@ package cz.cvut.fel.pjv;
 public class Test {
     
     public void start() {
-        String password = "abcda";
+        String password = "";
         BruteForceAttacker attacker = new BruteForceAttacker();
-        attacker.init(new char[]{'a', 'b', 'c', 'd'}, password);
+        attacker.init(new char[]{'a', 'b'}, password);
         
         System.out.println("Trying to break password...");
         attacker.breakPassword(password.length());
